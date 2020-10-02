@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbcece"
+    >
+
+    <EditText
+        android:id="@+id/NameEdit"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AddressEdit"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Reciever Name"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@android:color/holo_red_dark" />
+
+    <EditText
+        android:id="@+id/AddressEdit"
+        android:layout_width="291dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:ems="10"
+        android:hint="Delivery Address"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@android:color/holo_red_dark" />
+
+    <EditText
+        android:id="@+id/PhoneEdit"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddressEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-198dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:textColorHint="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="264dp"
+        android:layout_height="163dp"
+        android:layout_above="@+id/NameEdit"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/del" />
+
+</RelativeLayout>

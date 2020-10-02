@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "236549794476",
+    "firebase_url": "https://petuk-fuad.firebaseio.com",
+    "project_id": "petuk-fuad",
+    "storage_bucket": "petuk-fuad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236549794476:android:ec040a2af84e076c",
+        "android_client_info": {
+          "package_name": "com.fuad.petuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236549794476-t3fpqiibai1l0dckeeno30h1l2bjhqk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fuad.petuk",
+            "certificate_hash": "20d7af83ff2cafde5e9e9198c4daa95edcd07fc8"
+          }
+        },
+        {
+          "client_id": "236549794476-6lhid7eidj3iinmhufksbsc320h2n074.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMI7c0L26ifVMICQ347Bt83ws3StM3mIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236549794476-6lhid7eidj3iinmhufksbsc320h2n074.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
